@@ -1,0 +1,49 @@
+#container{
+  
+    display: flex;
+    flex-direction: row-reverse;
+    
+  }
+  
+  #navbar{
+    position: fixed;
+    font-size: 30px;
+    color: darkblue;
+    width: 30%;
+    overflow: scroll;
+    height: 600px;
+    left: 0px;
+    text-align: center;
+    
+   
+  }
+  
+  
+  #main-doc{
+    font-size: 20px;
+    width: 70%;
+    color: darkblue;
+    
+    
+  }
+  
+  .nav-link{
+    color: darkblue;
+    display: block;
+    font-size: 45px;
+    border: 2px solid darkblue;
+   
+    
+  
+  }
+  
+  @media (max-width: 550px){
+    #main-doc{
+      
+      font-size: 10px;
+    }
+    
+  }
+    
+    
+  
